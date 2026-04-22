@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- CLAVE para responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Perfil Gamer</title>
+
+  <!-- Bootstrap LOCAL -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Estilos propios -->
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<style>
+    body{
+    
+    background-image: url(/backgroundGamer.jpg);
+    background-size: cover;
+}
+</style>
+
+<body class="bg-secondary">
+
+<div class="container mt-4">
+
+  <h2 class="text-center mb-4 text-danger">PERFIL GAMER</h2>
+
+  <div class="row g-3 d-flex justify-content-center">
+
+    <!-- COLUMNA IZQUIERDA -->
+    <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
+
+      <label>Nick gamer</label>
+      <input type="text" class="form-control mb-3">
+
+      <label>Juego favorito</label>
+      <input type="text" class="form-control mb-3">
+
+      <label>Plataforma</label>
+      <select class="form-control mb-3">
+        <option>PC</option>
+        <option>PlayStation</option>
+        <option>Xbox</option>
+      </select>
+
+      <label>Edad</label>
+      <input type="number" class="form-control mb-3">
+
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="col-12 col-md-5 m-1 p-3 bg-dark text-white rounded">
+
+      <label>Horas de juego por semana</label>
+      <input type="text" class="form-control mb-3">
+
+      <label>Descripción gamer</label>
+      <textarea class="form-control mb-3"></textarea>
+
+      <label>Foto de perfil</label>
+      <input type="file" class="form-control mb-3">
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label">Jugador competitivo</label>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTON -->
+  <div class="mt-3 text-center">
+    <button class="btn btn-danger col-10">Crear Perfil</button>
+  </div>
+
+</div>
+
+</body>
+</html>
